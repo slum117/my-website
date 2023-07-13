@@ -5,8 +5,8 @@ import { RiArrowLeftDoubleFill } from "react-icons/ri";
 function Sidebar() {
     const [open, setOpen] = React.useState(false);
     const Links = [
-        { title: "Home", path:"/portfolio", key:"SideHome"},
-        { title: "Projects", path:"/portfolio/Projects",key:"SideProjects"},
+        { title: "Home", path:"#/", key:"SideHome"},
+        { title: "Projects", path:"#/Projects",key:"SideProjects"},
         { title: "LinkedIn", path:"https://www.linkedin.com/in/steven-lum-5b96a619b/",key:"SideLinkedIn"}
     ]
         // return(
